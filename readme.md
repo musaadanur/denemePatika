@@ -1,7 +1,6 @@
 # deneme
 
 # alt bilgi
-asdfasdfadsfasdfasfasdfsadf
-asdfasdfasfasdfasdfasdfasfa
+ccc
 
 [lorem ipsum] (http://google.com)
