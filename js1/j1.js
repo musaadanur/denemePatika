@@ -78,7 +78,3 @@ console.log(null === undefined); // false (farklı türler)
 console.log(0 === false); 
 
 
-if (1 > 0) {
-    var discount = 0.1;
- }
- console.log("Discount applied:", discount);
