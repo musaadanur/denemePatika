@@ -77,4 +77,35 @@ console.log(5 === "5"); // false (farklı türler: sayı ve string)
 console.log(null === undefined); // false (farklı türler)
 console.log(0 === false); 
 
+///////////////////
+
+let xxx=10;
+let yyy=3;
+let zzz;
+z= xxx ** yyy; // 10*10*10 demek
+console.log(z);
+
+//// fonksiyon
+// 2 parametrenin carpimini return
+// eden(veya dönen/döndüren) bir fonksiyon
+function multiply(a, b) { // "a" and "b" are parameters
+    return a * b; // Multiplies the inputs and returns the result
+  }
+  
+  console.log(multiply(3, 2)); // Output: 6
+
+  // default parameters
+  function greet(name = "Misafir") {
+    return `Merhaba, ${name}!`;
+  }
+  console.log(greet()); // Çıktı: Merhaba, Misafir!
+  console.log(greet("Dave")); // Çıktı: Merhaba, Dave!
+  
+  function example(a, b, c = 5) { // c parametresi asla a veya b'den once yazilmamalidir!
+    return a + b + c;
+  }
+  const result = example(1, 2);
+  console.log(result); // 1 + 2 + 5
+  ///
+  
 
